@@ -1,0 +1,38 @@
+body {
+  background: #eaafc8;
+  background: -webkit-linear-gradient(to right, #eaafc8, #654ea3);
+  background: linear-gradient(to right, #eaafc8, #654ea3);
+  min-height: 100vh;
+}
+
+@import "https://fonts.googleapis.com/css?family=Russo+One";
+h2.funny-title{font-size:22px;
+  text-transform:uppercase;
+  font-family:'Russo One',sans-serif;
+  font-weight:800;
+  letter-spacing:1px;
+  margin-bottom: 0px;
+}
+span.funny-title{
+  font-size:16px;
+  font-family:'Russo One',sans-serif;
+  font-weight:600;
+}
+@-webkit-keyframes move-background {
+0%{background-position:-100px 0}
+100%{background-position:100px -100px}
+}
+@-moz-keyframes move-background {
+0%{background-position:-300px 0}
+100%{background-position:300px -300px}
+}
+@keyframes move-background {
+0%{background-position:-300px 0}
+100%{background-position:300px -300px}
+}
+.header_logo_text{-webkit-animation-play-state:running;-moz-animation-play-state:running;animation-play-state:running;color:transparent;background:url(img/square.png) no-repeat #ECE7EA;background-size:cover;-webkit-text-fill-color:transparent;-moz-text-fill-color:transparent;-webkit-background-clip:text;-moz-background-clip:text;background-clip:text;-webkit-animation:move-background 20s infinite linear alternate;-moz-animation:move-background 20s infinite linear alternate;animation:move-background 20s infinite linear alternate;
+}
+
+.header_logo_text a{
+  text-decoration: none;
+}

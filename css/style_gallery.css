@@ -1,0 +1,288 @@
+body {
+    font-family: Roboto,sans-serif;
+    font-weight: 300;
+    padding: 0;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul,
+li{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+                                                /* ______________HEADER_______________ */
+.header_container{
+  background-color: #fff;
+
+}
+.header__contacts{
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+/* Обратная связь */
+.header__contacts a{
+  color: black;
+  text-decoration: none;
+}
+.header__phone,
+.header__email{
+  color: #cbcacb;
+  letter-spacing: 0.25px;
+  line-height: 45px;
+  position: relative;
+}
+.header__phone{
+  padding-left: 20px;
+}
+
+.header__email{
+  padding-left: 24px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255,1);
+}
+.navbar{
+  padding: 0 15px;
+  background-color: #303D46!important;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+  font-weight: 300;
+  font-size: 18px;
+}
+.navbar img{
+  z-index: 30;
+}
+.navbar-nav{
+  color: #fff
+}
+.nav-social-facebook a:hover{
+  color: #3b5998 !important
+}
+.nav-social-whatsapp a:hover{
+  color: #25d366 !important
+}
+.nav-social-instagram a:hover{
+  color: #FD1D1D !important
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+  color:#fe7a28;
+}
+.dropdown-menu{
+  background-color:  #303D46!important;
+  color: white;
+}
+.dropdown-item:hover{
+  background-color: #303D46!important;
+  color: #fe7a28;
+}
+/* ТЕКСТ ЛОГОТИПА HEADER "Altyn Juldyz" */
+.text_logo div{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.text_logo a{
+  text-decoration: none;
+}
+.text_logo div:nth-child(1){
+  font-size: 38px;
+  color: #ffc107;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: TimesNewRomanPS;
+  font-weight: 500;
+  font
+}
+@font-face {
+    font-family:TimesNewRomanPS; /* Имя шрифта */
+    src: url(fonts/TimesNewRomanPS.otf); /* Путь к файлу со шрифтом */
+   }
+.text_logo div:nth-child(2){
+  font-size: 18px;
+  color: #ffc107;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: TimesNewRomanPS;
+}
+
+                                                /* ____________FANCYBOX_____________ */
+.fancybox{
+  max-width: 1170px;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  padding: 0;
+
+}
+#demo {
+  height:100%;
+  position:relative;
+  overflow:hidden;
+}
+.green{
+  background-color:#6fb936;
+}
+.thumb{
+    margin-bottom: 20px;
+    padding: 0 8px;
+}
+
+.page-top{
+    margin-top:30px;
+}
+
+img.zoom {
+    width: 100%;
+    height: 200px;
+    border-radius:5px;
+    object-fit:cover;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    -ms-transition: all .3s ease-in-out;
+}
+
+.transition {
+    -webkit-transform: scale(0.5);
+    -moz-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.05);
+}
+    .modal-header {
+
+     border-bottom: none;
+}
+.modal-title {
+    color:#000;
+}
+.modal-footer{
+  display:none;
+}
+.gallery_content{
+  margin: auto;
+  padding: 0;
+  max-width: 1170px;
+}
+.base_container{
+  max-width: 1170px;
+  margin: auto;
+  padding: 0
+}
+.video_section {
+  max-width: 1300px;
+  margin: 0 10px;
+  padding: 0
+}
+/* FOOTER */
+
+footer .container{
+  position: relative;
+  max-width: 1600px;
+}
+footer.page-footer {
+  font-family: Roboto,sans-serif;
+font-weight: 300;
+    bottom: 0;
+    color: #fff;
+}
+
+footer .row {
+    width: 100%;
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      margin-right: -15px;
+      margin-left: -15px;
+  }
+  .mdb-color {
+      background-color:  #303D46 !important;
+  }
+  .pt-4, .py-4 {
+      padding-top: 1.5rem!important;
+  }
+  .font-weight-bold {
+      font-weight: 700!important;
+  }
+  .copy__text {
+      color: #5e5e5e;
+      text-align: left;
+      font-size: 12px;
+      line-height: 24px;
+      padding: 8px 0;
+      font-weight: 400;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  footer.page-footer a {
+      color: #fff;
+      text-decoration: none;
+      cursor: pointer;
+  }
+  footer.page-footer a:hover {
+      color:#f3520c;
+    }
+
+      /* company_container */
+  .mt-0,.my-0{margin-top:0!important}.mr-0,
+
+  .nav-item li a{
+  }
+
+  .first-meeting__right-block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+
+  #hidden-content-2 {
+      /* Custom styling */
+  		max-width: 550px;
+  		padding: 10px 30px 30px 30px;
+  		border-radius: 4px;
+
+      /* Custom transition - fade from top*/
+  		opacity: 0;
+      transform: translateY(-50px);
+      transition: all .3s;
+  	}
+
+  	.fancybox-slide--complete #hidden-content-2 {
+  		opacity: 1;
+  		transform: translateY(0);
+  	}
+    /* ТЕКСТ ЛОГОТИПА HEADER "Altyn Juldyz" */
+    .text_logo div{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .text_logo a{
+      text-decoration: none;
+    }
+    .text_logo div:nth-child(1){
+      font-size: 25px;
+      color: #ffc107;
+      text-shadow: 2px 2px 4px #000000;
+      font-family: TimesNewRomanPS;
+      font-weight: 200;
+      letter-spacing: 5px;
+    }
+    @font-face {
+        font-family:TimesNewRomanPS; /* Имя шрифта */
+        src: url(fonts/TimesNewRomanPS.otf); /* Путь к файлу со шрифтом */
+       }
+    .text_logo div:nth-child(2){
+      font-size: 16px;
+      color: #ffc107;
+      text-shadow: 2px 2px 4px #000000;
+      font-family: TimesNewRomanPS;
+      line-height: 6px;
+      font-weight: 200;
+      letter-spacing: 3px;
+    }
+    .row{margin:0 !important; padding:0 !important;}

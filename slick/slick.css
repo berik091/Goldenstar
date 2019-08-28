@@ -1,0 +1,31 @@
+
+.slideshow {
+  position: relative;
+  z-index: 1;
+  height: 80%;
+  max-width: 500px;
+}
+.slideshow * {
+  outline: none;
+}
+.slideshow .slider {
+  box-shadow: 0 20px 5px -25px black;
+}
+.slideshow .slider-track {
+  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+}
+.slideshow .item {
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.slideshow .item img {
+  width: 100%;
+  transition: all 1s cubic-bezier(0.7, 0, 0.3, 1);
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+.slideshow .item.slick-active img {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
