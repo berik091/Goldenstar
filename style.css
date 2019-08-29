@@ -433,3 +433,53 @@ hr{
 .item_top{
   transform: translateY(-100%);
 }
+
+/* About container */
+.bullet {
+margin-left: 0;
+list-style: none;
+counter-reset: li;
+}
+.bullet li {
+position: relative;
+margin-bottom: 1.5em;
+border: 1px solid #ffc107;
+padding: 0.6em;
+border-radius: 4px;
+background: #FEFEFE;
+color: #231F20;
+font-family: "Trebuchet MS", "Lucida Sans";
+}
+.bullet li:before {
+position: absolute;
+top: -0.7em;
+padding-left: 0.4em;
+padding-right: 0.4em;
+font-size: 16px;
+font-weight: bold;
+color: #DCC24B;
+background: #FEFEFE;
+border-radius: 50%;
+counter-increment: li;
+content: counter(li);
+}
+ol {
+    display: block;
+    list-style-type: decimal;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding: 0;
+}
+
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 0 10px 20px 10px;
+}
+.production_title,
+.ferm_title{
+  font-size: 26px;
+}
