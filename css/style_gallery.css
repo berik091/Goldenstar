@@ -285,3 +285,15 @@ footer .row {
       letter-spacing: 3px;
     }
     .row{margin:0 !important; padding:0 !important;}
+
+    @media (max-width: 375px),
+    (max-width: 414px){
+      .text_logo div:nth-child(1) {
+    font-size: 22px;
+    color: #ffc107;
+    text-shadow: 2px 2px 4px #000000;
+    font-family: TimesNewRomanPS;
+    font-weight: 200;
+    letter-spacing: 5px;
+}
+}
